@@ -1,13 +1,9 @@
-px, y = 3, 8
-
-if x == 3:
-    print(42)
-
-if x < 0:
-    if y > 0:
-        print('налево!')
+while True:
+    user_input = input('Введите 42 >> ')
+    result = int(user_input)
+    if result == 42:
+        print('Спасибо за сотрудничество!')
+        break
     else:
-        print('направо!')
-else:
-    print(
-        'стой!')
+        print('Я просил 42, а Вы ввели', result, 'Попробуйте еще раз...')
+

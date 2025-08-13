@@ -27,7 +27,7 @@ while i < 10:
     print(i)
 else:
     print('i >= 10')
-print('дотвиданя!')
+print('досвиданя!')
 
 # break
 my_pets = ['cat', 'dog', 'hamster']
@@ -35,10 +35,13 @@ i = 0
 while i < len(my_pets):
     pet = my_pets[i]
     print('Проверяем ', pet)
-    if pet == 'cat':
-        print('Ура, кот найден!')
+    if pet == 'рука':
+        print('Ура, собака найдена!')
+        break
     i += 1
-print('дотвиданя!')
+else: #del
+    print('Не нашли')#del
+print('досвиданя!')
 
 
 # continue
